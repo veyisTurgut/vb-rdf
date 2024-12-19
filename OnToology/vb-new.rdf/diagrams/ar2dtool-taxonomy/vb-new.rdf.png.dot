@@ -1,0 +1,14 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; ":InteractiveLearningMaterial" ":AudioLearningMaterial" ":Feedback" ":LearningMaterial" ":ImageLearningMaterial" ":UsabilityFeedback" ":TechnicalFeedback" ":VideoLearningMaterial" ":ContentFeedback" ":TextualLearningMaterial" ; /*classes style*/
+	":AudioLearningMaterial" -> ":LearningMaterial" [ label = "rdfs:subClassOf" ];
+	":VideoLearningMaterial" -> ":LearningMaterial" [ label = "rdfs:subClassOf" ];
+	":ImageLearningMaterial" -> ":LearningMaterial" [ label = "rdfs:subClassOf" ];
+	":InteractiveLearningMaterial" -> ":LearningMaterial" [ label = "rdfs:subClassOf" ];
+	":UsabilityFeedback" -> ":Feedback" [ label = "rdfs:subClassOf" ];
+	":TextualLearningMaterial" -> ":LearningMaterial" [ label = "rdfs:subClassOf" ];
+	":ContentFeedback" -> ":Feedback" [ label = "rdfs:subClassOf" ];
+	":TechnicalFeedback" -> ":Feedback" [ label = "rdfs:subClassOf" ];
+
+}

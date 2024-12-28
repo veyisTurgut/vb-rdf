@@ -1,4 +1,4 @@
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 # 
 # 
 # #################################################################
@@ -10,96 +10,96 @@
 # 
 # http://schema.org/audience
 <http://schema.org/audience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://schema.org/audience> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience> .
+<http://schema.org/audience> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience> .
 <http://schema.org/audience> <http://www.w3.org/2000/01/rdf-schema#comment> "The audience intended for a learning resource." .
 <http://schema.org/audience> <http://www.w3.org/2000/01/rdf-schema#label> "Audience" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#about
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#about> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#about> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#about> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#about> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#about> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#about
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#about> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#about> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#about> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#about> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#about> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#completedLearningPath
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#completedLearningPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#completedLearningPath> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#completedLearningPath> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#completedLearningPath> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#completedLearningPath
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#completedLearningPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#completedLearningPath> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#completedLearningPath> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#completedLearningPath> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#givenBy
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#givenBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#givenBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#givenBy
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#givenBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#givenBy> <http://www.w3.org/2002/07/owl#inverseOf> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedbackStatus
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedbackStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedbackStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedbackStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedbackStatus
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedbackStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedbackStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedbackStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLevel
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasResponse
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasResponse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasResponse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasResponse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasResponse> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a feedback to its response feedback" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasResponse
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasResponse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasResponse> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasResponse> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasResponse> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a feedback to its response feedback" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isPartOfSubject> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Subject> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "functional because a topic can only belong to one subject" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic> <http://www.w3.org/2002/07/owl#inverseOf> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#isPartOfSubject> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Subject> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "functional because a topic can only belong to one subject" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isForLearningStyle
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isForLearningStyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isForLearningStyle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isForLearningStyle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isForLearningStyle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#isForLearningStyle
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#isForLearningStyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#isForLearningStyle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#isForLearningStyle> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#isForLearningStyle> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isPartOfSubject
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isPartOfSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#isPartOfSubject
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#isPartOfSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#precedes
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#precedes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#precedes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#precedes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#precedes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#precedes
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#precedes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#precedes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#precedes> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#precedes> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#prefersLearningStyle
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#prefersLearningStyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#prefersLearningStyle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#prefersLearningStyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#prefersLearningStyle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#prefersLearningStyle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#prefersLearningStyle> <http://www.w3.org/2000/01/rdf-schema#comment> "each student has one learning style" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle> <http://www.w3.org/2000/01/rdf-schema#comment> "each student has one learning style" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience> <http://www.w3.org/2000/01/rdf-schema#comment> "The target audience of learning materials in the vbc ontology." .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience> <http://www.w3.org/2000/01/rdf-schema#label> "Target Audience" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience> <http://www.w3.org/2000/01/rdf-schema#range> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience> <http://www.w3.org/2000/01/rdf-schema#comment> "The target audience of learning materials in the vbc ontology." .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience> <http://www.w3.org/2000/01/rdf-schema#label> "Target Audience" .
 # 
 # 
 # 
@@ -110,23 +110,23 @@
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#feedbackTimestamp
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#feedbackTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#feedbackTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#feedbackTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#feedbackTimestamp> <http://www.w3.org/2000/01/rdf-schema#comment> "When the feedback was submitted" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#feedbackTimestamp
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#feedbackTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#feedbackTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#feedbackTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#feedbackTimestamp> <http://www.w3.org/2000/01/rdf-schema#comment> "When the feedback was submitted" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasComment
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasComment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasComment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasComment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasComment> <http://www.w3.org/2000/01/rdf-schema#comment> "Textual feedback comment" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasComment
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasComment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasComment> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasComment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasComment> <http://www.w3.org/2000/01/rdf-schema#comment> "Textual feedback comment" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasRating
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Numerical rating given in the feedback (e.g., 1-5)" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasRating
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Numerical rating given in the feedback (e.g., 1-5)" .
 # 
 # 
 # 
@@ -139,14 +139,14 @@
 # 
 # http://schema.org/EducationalAudience
 <http://schema.org/EducationalAudience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://schema.org/EducationalAudience> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student> .
+<http://schema.org/EducationalAudience> <http://www.w3.org/2002/07/owl#equivalentClass> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student> .
 <http://schema.org/EducationalAudience> <http://www.w3.org/2000/01/rdf-schema#comment> "An audience targeted by educational materials." .
 <http://schema.org/EducationalAudience> <http://www.w3.org/2000/01/rdf-schema#label> "Educational Audience" .
 # 
 # http://schema.org/LearningResource
 <http://schema.org/LearningResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://schema.org/LearningResource> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/LearningResource> <http://www.w3.org/2002/07/owl#equivalentClass> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://schema.org/LearningResource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
 _:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://schema.org/EducationalAudience> .
 _:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/audience> .
@@ -154,112 +154,112 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://schema.org/LearningResource> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic learning resource in the schema.org ontology." .
 <http://schema.org/LearningResource> <http://www.w3.org/2000/01/rdf-schema#label> "Learning Resource" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#AudioLearningMaterial
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#AudioLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#AudioLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ContentFeedback
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ContentFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ContentFeedback> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ContentFeedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Feedback specifically about the content quality and accuracy" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#ContentFeedback
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#ContentFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#ContentFeedback> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#ContentFeedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Feedback specifically about the content quality and accuracy" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Base class for all types of feedback in the system" .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> <http://www.w3.org/2000/01/rdf-schema#label> "Feedback" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Base class for all types of feedback in the system" .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> <http://www.w3.org/2000/01/rdf-schema#label> "Feedback" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
 _:genid2 <http://www.w3.org/2002/07/owl#oneOf> _:genid5 .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Rejected> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Rejected> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Pending> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Pending> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Approved> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Approved> .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ImageLearningMaterial
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ImageLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ImageLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#InteractiveLearningMaterial
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#InteractiveLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#InteractiveLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
 _:genid6 <http://www.w3.org/2002/07/owl#oneOf> _:genid10 .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Visual> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Visual> .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Reading_Writing> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Reading_Writing> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Kinesthetic> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Kinesthetic> .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Auditory> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Auditory> .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
 _:genid11 <http://www.w3.org/2002/07/owl#oneOf> _:genid14 .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Intermediate> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Intermediate> .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Beginner> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Beginner> .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Advanced> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Advanced> .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student> <http://www.w3.org/2000/01/rdf-schema#comment> "A student defined in the vbc ontology." .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student> <http://www.w3.org/2000/01/rdf-schema#label> "Student" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student> <http://www.w3.org/2000/01/rdf-schema#comment> "A student defined in the vbc ontology." .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student> <http://www.w3.org/2000/01/rdf-schema#label> "Student" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Subject
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Subject
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TechnicalFeedback
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TechnicalFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TechnicalFeedback> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TechnicalFeedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Feedback about technical issues or problems" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#TechnicalFeedback
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#TechnicalFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#TechnicalFeedback> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#TechnicalFeedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Feedback about technical issues or problems" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TextualLearningMaterial
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TextualLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TextualLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#UsabilityFeedback
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#UsabilityFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#UsabilityFeedback> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#UsabilityFeedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Feedback about the usability and accessibility of learning materials" .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#UsabilityFeedback
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#UsabilityFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#UsabilityFeedback> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#UsabilityFeedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Feedback about the usability and accessibility of learning materials" .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#VideoLearningMaterial
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#VideoLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#VideoLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial
 # 
 # 
 # 
@@ -270,43 +270,43 @@ _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Advanced
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Advanced> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Advanced
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Advanced> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Approved
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Approved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Approved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Approved
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Approved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Approved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Auditory
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Auditory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Auditory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Auditory
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Auditory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Auditory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Beginner
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Beginner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Beginner
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Beginner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Intermediate
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Intermediate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Intermediate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Intermediate
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Intermediate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Intermediate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Kinesthetic
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Kinesthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Kinesthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Kinesthetic
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Kinesthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Kinesthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Pending
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Pending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Pending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Pending
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Pending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Pending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Reading_Writing
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Reading_Writing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Reading_Writing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Reading_Writing
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Reading_Writing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Reading_Writing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Rejected
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Rejected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Rejected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Rejected
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Rejected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Rejected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus> .
 # 
-# http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Visual
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Visual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Visual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle> .
+# https://veyisturgut.github.io/vb-rdf/ontology.rdf#Visual
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Visual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#Visual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle> .
 # 
 # 
 # 
@@ -317,8 +317,8 @@ _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#comment> "Material used for learning purposes in the vbc ontology." .
-<http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#label> "Learning Material" .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#comment> "Material used for learning purposes in the vbc ontology." .
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial> <http://www.w3.org/2000/01/rdf-schema#label> "Learning Material" .
 # 
 # 
 # 
@@ -336,15 +336,15 @@ _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#VideoLearningMaterial> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial> .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TextualLearningMaterial> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial> .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#InteractiveLearningMaterial> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial> .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ImageLearningMaterial> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial> .
 _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#AudioLearningMaterial> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial> .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -352,11 +352,11 @@ _:genid21 <http://www.w3.org/2002/07/owl#members> _:genid24 .
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
 _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student> .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level> .
 _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback> .
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,358 @@
+@prefix : <https://veyisturgut.github.io/vb-rdf/ontology.rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://veyisturgut.github.io/vb-rdf/ontology.rdf#> .
+
+<https://veyisturgut.github.io/vb-rdf/ontology.rdf> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://schema.org/audience
+<http://schema.org/audience> rdf:type owl:ObjectProperty ;
+                             owl:equivalentProperty :targetAudience ;
+                             rdfs:comment "The audience intended for a learning resource." ;
+                             rdfs:label "Audience" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#about
+:about rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty ;
+       rdfs:domain :Feedback ;
+       rdfs:range :LearningMaterial ,
+                  :LearningPath .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#completedLearningPath
+:completedLearningPath rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       rdfs:domain :Student ;
+                       rdfs:range :LearningPath .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#givenBy
+:givenBy rdf:type owl:ObjectProperty ;
+         owl:inverseOf :hasFeedback .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback
+:hasFeedback rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Student ;
+             rdfs:range :Feedback .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedbackStatus
+:hasFeedbackStatus rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Feedback ;
+                   rdfs:range :FeedbackStatus .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial
+:hasLearningMaterial rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     rdfs:domain :LearningPath ,
+                                 :Topic ;
+                     rdfs:range :LearningMaterial .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel
+:hasLevel rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :LearningMaterial ,
+                      :Student ;
+          rdfs:range :Level .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasResponse
+:hasResponse rdf:type owl:ObjectProperty ;
+             rdfs:domain :Feedback ;
+             rdfs:range :Feedback ;
+             rdfs:comment "Links a feedback to its response feedback" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic
+:hasTopic rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          owl:inverseOf :isPartOfSubject ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :Subject ;
+          rdfs:range :Topic ;
+          rdfs:comment "functional because a topic can only belong to one subject" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#isForLearningStyle
+:isForLearningStyle rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain :LearningMaterial ;
+                    rdfs:range :LearningStyle .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#isPartOfSubject
+:isPartOfSubject rdf:type owl:ObjectProperty .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#precedes
+:precedes rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :LearningMaterial ;
+          rdfs:range :LearningMaterial .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle
+:prefersLearningStyle rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdf:type owl:FunctionalProperty ;
+                      rdfs:domain :Student ;
+                      rdfs:range :LearningStyle ;
+                      rdfs:comment "each student has one learning style" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience
+:targetAudience rdf:type owl:ObjectProperty ;
+                rdfs:domain :LearningMaterial ;
+                rdfs:range :Student ;
+                rdfs:comment "The target audience of learning materials in the vbc ontology." ;
+                rdfs:label "Target Audience" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#feedbackTimestamp
+:feedbackTimestamp rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Feedback ;
+                   rdfs:range xsd:dateTime ;
+                   rdfs:comment "When the feedback was submitted" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasComment
+:hasComment rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Feedback ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Textual feedback comment" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasRating
+:hasRating rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Feedback ;
+           rdfs:range xsd:integer ;
+           rdfs:comment "Numerical rating given in the feedback (e.g., 1-5)" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://schema.org/EducationalAudience
+<http://schema.org/EducationalAudience> rdf:type owl:Class ;
+                                        owl:equivalentClass :Student ;
+                                        rdfs:comment "An audience targeted by educational materials." ;
+                                        rdfs:label "Educational Audience" .
+
+
+###  http://schema.org/LearningResource
+<http://schema.org/LearningResource> rdf:type owl:Class ;
+                                     owl:equivalentClass :hasLearningMaterial ;
+                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                       owl:onProperty <http://schema.org/audience> ;
+                                                       owl:someValuesFrom <http://schema.org/EducationalAudience>
+                                                     ] ;
+                                     rdfs:comment "A generic learning resource in the schema.org ontology." ;
+                                     rdfs:label "Learning Resource" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial
+:AudioLearningMaterial rdf:type owl:Class ;
+                       rdfs:subClassOf :LearningMaterial .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#ContentFeedback
+:ContentFeedback rdf:type owl:Class ;
+                 rdfs:subClassOf :Feedback ;
+                 rdfs:comment "Feedback specifically about the content quality and accuracy" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback
+:Feedback rdf:type owl:Class ;
+          rdfs:comment "Base class for all types of feedback in the system" ;
+          rdfs:label "Feedback" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus
+:FeedbackStatus rdf:type owl:Class ;
+                owl:equivalentClass [ rdf:type owl:Class ;
+                                      owl:oneOf ( :Approved
+                                                  :Pending
+                                                  :Rejected
+                                                )
+                                    ] .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial
+:ImageLearningMaterial rdf:type owl:Class ;
+                       rdfs:subClassOf :LearningMaterial .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial
+:InteractiveLearningMaterial rdf:type owl:Class ;
+                             rdfs:subClassOf :LearningMaterial .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial
+:LearningMaterial rdf:type owl:Class .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath
+:LearningPath rdf:type owl:Class .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle
+:LearningStyle rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Class ;
+                                     owl:oneOf ( :Auditory
+                                                 :Kinesthetic
+                                                 :Reading_Writing
+                                                 :Visual
+                                               )
+                                   ] .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level
+:Level rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Class ;
+                             owl:oneOf ( :Advanced
+                                         :Beginner
+                                         :Intermediate
+                                       )
+                           ] .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student
+:Student rdf:type owl:Class ;
+         rdfs:comment "A student defined in the vbc ontology." ;
+         rdfs:label "Student" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Subject
+:Subject rdf:type owl:Class .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#TechnicalFeedback
+:TechnicalFeedback rdf:type owl:Class ;
+                   rdfs:subClassOf :Feedback ;
+                   rdfs:comment "Feedback about technical issues or problems" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial
+:TextualLearningMaterial rdf:type owl:Class ;
+                         rdfs:subClassOf :LearningMaterial .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic
+:Topic rdf:type owl:Class .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#UsabilityFeedback
+:UsabilityFeedback rdf:type owl:Class ;
+                   rdfs:subClassOf :Feedback ;
+                   rdfs:comment "Feedback about the usability and accessibility of learning materials" .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial
+:VideoLearningMaterial rdf:type owl:Class ;
+                       rdfs:subClassOf :LearningMaterial .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial
+:hasLearningMaterial rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Advanced
+:Advanced rdf:type owl:NamedIndividual .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Approved
+:Approved rdf:type owl:NamedIndividual ,
+                   :FeedbackStatus .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Auditory
+:Auditory rdf:type owl:NamedIndividual ,
+                   :LearningStyle .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Beginner
+:Beginner rdf:type owl:NamedIndividual .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Intermediate
+:Intermediate rdf:type owl:NamedIndividual ,
+                       :Level .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Kinesthetic
+:Kinesthetic rdf:type owl:NamedIndividual ,
+                      :LearningStyle .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Pending
+:Pending rdf:type owl:NamedIndividual ,
+                  :FeedbackStatus .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Reading_Writing
+:Reading_Writing rdf:type owl:NamedIndividual ,
+                          :LearningStyle .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Rejected
+:Rejected rdf:type owl:NamedIndividual ,
+                   :FeedbackStatus .
+
+
+###  https://veyisturgut.github.io/vb-rdf/ontology.rdf#Visual
+:Visual rdf:type owl:NamedIndividual ,
+                 :LearningStyle .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:hasLearningMaterial rdfs:comment "Material used for learning purposes in the vbc ontology." ;
+                     rdfs:label "Learning Material" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :AudioLearningMaterial
+                :ImageLearningMaterial
+                :InteractiveLearningMaterial
+                :TextualLearningMaterial
+                :VideoLearningMaterial
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Feedback
+                :Level
+                :Student
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

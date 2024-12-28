@@ -12,11 +12,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Advanced"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Advanced"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Beginner"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Beginner"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Intermediate"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Intermediate"
     } ]
   } ]
 }, {
@@ -24,15 +24,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#AudioLearningMaterial"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ImageLearningMaterial"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#InteractiveLearningMaterial"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TextualLearningMaterial"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#VideoLearningMaterial"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial"
     } ]
   } ]
 }, {
@@ -40,11 +40,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Approved"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Approved"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Pending"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Pending"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Rejected"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Rejected"
     } ]
   } ]
 }, {
@@ -52,11 +52,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"
     } ]
   } ]
 }, {
@@ -64,13 +64,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#oneOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Auditory"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Auditory"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Kinesthetic"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Kinesthetic"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Reading_Writing"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Reading_Writing"
     }, {
-      "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Visual"
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Visual"
     } ]
   } ]
 }, {
@@ -83,7 +83,7 @@
     "@value" : "Educational Audience"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"
   } ]
 }, {
   "@id" : "http://schema.org/LearningResource",
@@ -98,7 +98,7 @@
     "@id" : "_:genid1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial"
   } ]
 }, {
   "@id" : "http://schema.org/audience",
@@ -110,46 +110,46 @@
     "@value" : "Audience"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Advanced",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Advanced",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Approved",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Approved",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#AudioLearningMaterial",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Auditory",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Auditory",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Beginner",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Beginner",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ContentFeedback",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#ContentFeedback",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Feedback specifically about the content quality and accuracy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Base class for all types of feedback in the system"
@@ -158,73 +158,73 @@
     "@value" : "Feedback"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid2"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ImageLearningMaterial",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#InteractiveLearningMaterial",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Intermediate",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Intermediate",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Kinesthetic",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Kinesthetic",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid6"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid11"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Pending",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Pending",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Reading_Writing",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Reading_Writing",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Rejected",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Rejected",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A student defined in the vbc ontology."
@@ -233,255 +233,255 @@
     "@value" : "Student"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Subject",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Subject",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TechnicalFeedback",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#TechnicalFeedback",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Feedback about technical issues or problems"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TextualLearningMaterial",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#UsabilityFeedback",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#UsabilityFeedback",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Feedback about the usability and accessibility of learning materials"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#VideoLearningMaterial",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Visual",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Visual",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#about",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#about",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   }, {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#completedLearningPath",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#completedLearningPath",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#feedbackTimestamp",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#feedbackTimestamp",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "When the feedback was submitted"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#givenBy",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#givenBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasComment",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasComment",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Textual feedback comment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedbackStatus",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedbackStatus",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Material used for learning purposes in the vbc ontology."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath"
   }, {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Learning Material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLevel",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   }, {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasRating",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasRating",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Numerical rating given in the feedback (e.g., 1-5)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasResponse",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasResponse",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Links a feedback to its response feedback"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "functional because a topic can only belong to one subject"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Subject"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Subject"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isPartOfSubject"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#isPartOfSubject"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isForLearningStyle",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#isForLearningStyle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isPartOfSubject",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#isPartOfSubject",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#precedes",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#precedes",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#prefersLearningStyle",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "each student has one learning style"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience",
+  "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The target audience of learning materials in the vbc ontology."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Target Audience"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"
+    "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"
   } ]
 } ]

@@ -1,0 +1,143 @@
+{
+  "@context" : {
+    "Level" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level"
+    },
+    "feedbackTimestamp" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#feedbackTimestamp",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "LearningMaterial" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"
+    },
+    "hasRating" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "UsabilityFeedback" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#UsabilityFeedback"
+    },
+    "completedLearningPath" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#completedLearningPath",
+      "@type" : "@id"
+    },
+    "hasResponse" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasResponse",
+      "@type" : "@id"
+    },
+    "targetAudience" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience",
+      "@type" : "@id"
+    },
+    "precedes" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#precedes",
+      "@type" : "@id"
+    },
+    "ContentFeedback" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#ContentFeedback"
+    },
+    "hasComment" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasComment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "EducationalAudience" : {
+      "@id" : "http://schema.org/EducationalAudience"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "isPartOfSubject" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#isPartOfSubject",
+      "@type" : "@id"
+    },
+    "about" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#about",
+      "@type" : "@id"
+    },
+    "hasLearningMaterial" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial",
+      "@type" : "@id"
+    },
+    "givenBy" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#givenBy",
+      "@type" : "@id"
+    },
+    "hasFeedbackStatus" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedbackStatus",
+      "@type" : "@id"
+    },
+    "LearningPath" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath"
+    },
+    "prefersLearningStyle" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle",
+      "@type" : "@id"
+    },
+    "ImageLearningMaterial" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial"
+    },
+    "Topic" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic"
+    },
+    "InteractiveLearningMaterial" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial"
+    },
+    "TextualLearningMaterial" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "hasFeedback" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback",
+      "@type" : "@id"
+    },
+    "Subject" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Subject"
+    },
+    "hasTopic" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic",
+      "@type" : "@id"
+    },
+    "FeedbackStatus" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus"
+    },
+    "TechnicalFeedback" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#TechnicalFeedback"
+    },
+    "LearningResource" : {
+      "@id" : "http://schema.org/LearningResource"
+    },
+    "hasLevel" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel",
+      "@type" : "@id"
+    },
+    "AudioLearningMaterial" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial"
+    },
+    "isForLearningStyle" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#isForLearningStyle",
+      "@type" : "@id"
+    },
+    "Student" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"
+    },
+    "audience" : {
+      "@id" : "http://schema.org/audience",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Feedback" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"
+    },
+    "VideoLearningMaterial" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial"
+    },
+    "LearningStyle" : {
+      "@id" : "https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"
+    }
+  }
+}

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#"
-     xml:base="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc"
+<rdf:RDF xmlns="https://veyisturgut.github.io/vb-rdf/ontology.rdf#"
+     xml:base="https://veyisturgut.github.io/vb-rdf/ontology.rdf"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc"/>
+    <owl:Ontology rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf"/>
     
 
 
@@ -26,163 +26,163 @@
 
 
     <owl:ObjectProperty rdf:about="http://schema.org/audience">
-        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience"/>
+        <owl:equivalentProperty rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience"/>
         <rdfs:comment>The audience intended for a learning resource.</rdfs:comment>
         <rdfs:label>Audience</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#about -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#about -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#about">
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#about">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#completedLearningPath -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#completedLearningPath -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#completedLearningPath">
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#completedLearningPath">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#givenBy -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#givenBy -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#givenBy">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback"/>
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#givenBy">
+        <owl:inverseOf rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedback">
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedback">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedbackStatus -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedbackStatus -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasFeedbackStatus">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus"/>
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasFeedbackStatus">
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial">
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLevel -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLevel">
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLevel">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasResponse -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasResponse -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasResponse">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasResponse">
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
         <rdfs:comment>Links a feedback to its response feedback</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasTopic">
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasTopic">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isPartOfSubject"/>
+        <owl:inverseOf rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#isPartOfSubject"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Subject"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Subject"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic"/>
         <rdfs:comment>functional because a topic can only belong to one subject</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isForLearningStyle -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#isForLearningStyle -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isForLearningStyle">
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#isForLearningStyle">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isPartOfSubject -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#isPartOfSubject -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#isPartOfSubject"/>
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#isPartOfSubject"/>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#precedes -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#precedes -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#precedes">
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#precedes">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#prefersLearningStyle -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#prefersLearningStyle">
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#prefersLearningStyle">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"/>
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"/>
         <rdfs:comment>each student has one learning style</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#targetAudience">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"/>
+    <owl:ObjectProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#targetAudience">
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
+        <rdfs:range rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"/>
         <rdfs:comment>The target audience of learning materials in the vbc ontology.</rdfs:comment>
         <rdfs:label>Target Audience</rdfs:label>
     </owl:ObjectProperty>
@@ -201,33 +201,33 @@
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#feedbackTimestamp -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#feedbackTimestamp -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#feedbackTimestamp">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
+    <owl:DatatypeProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#feedbackTimestamp">
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>When the feedback was submitted</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasComment -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasComment -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasComment">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
+    <owl:DatatypeProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasComment">
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Textual feedback comment</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasRating -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasRating -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasRating">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
+    <owl:DatatypeProperty rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasRating">
+        <rdfs:domain rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>Numerical rating given in the feedback (e.g., 1-5)</rdfs:comment>
     </owl:DatatypeProperty>
@@ -250,7 +250,7 @@
 
 
     <owl:Class rdf:about="http://schema.org/EducationalAudience">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"/>
+        <owl:equivalentClass rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"/>
         <rdfs:comment>An audience targeted by educational materials.</rdfs:comment>
         <rdfs:label>Educational Audience</rdfs:label>
     </owl:Class>
@@ -261,7 +261,7 @@
 
 
     <owl:Class rdf:about="http://schema.org/LearningResource">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial"/>
+        <owl:equivalentClass rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://schema.org/audience"/>
@@ -274,45 +274,45 @@
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#AudioLearningMaterial -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#AudioLearningMaterial">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial">
+        <rdfs:subClassOf rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ContentFeedback -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#ContentFeedback -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ContentFeedback">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#ContentFeedback">
+        <rdfs:subClassOf rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
         <rdfs:comment>Feedback specifically about the content quality and accuracy</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback">
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback">
         <rdfs:comment>Base class for all types of feedback in the system</rdfs:comment>
         <rdfs:label>Feedback</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus">
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Approved"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Pending"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Rejected"/>
+                    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Approved"/>
+                    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Pending"/>
+                    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Rejected"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -320,49 +320,49 @@
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ImageLearningMaterial -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ImageLearningMaterial">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial">
+        <rdfs:subClassOf rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#InteractiveLearningMaterial -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#InteractiveLearningMaterial">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial">
+        <rdfs:subClassOf rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningPath"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningPath"/>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle">
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Auditory"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Kinesthetic"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Reading_Writing"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Visual"/>
+                    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Auditory"/>
+                    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Kinesthetic"/>
+                    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Reading_Writing"/>
+                    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Visual"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -370,16 +370,16 @@
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level">
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Advanced"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Beginner"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Intermediate"/>
+                    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Advanced"/>
+                    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Beginner"/>
+                    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Intermediate"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -387,72 +387,72 @@
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student">
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student">
         <rdfs:comment>A student defined in the vbc ontology.</rdfs:comment>
         <rdfs:label>Student</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Subject -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Subject -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Subject"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Subject"/>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TechnicalFeedback -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#TechnicalFeedback -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TechnicalFeedback">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#TechnicalFeedback">
+        <rdfs:subClassOf rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
         <rdfs:comment>Feedback about technical issues or problems</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TextualLearningMaterial -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TextualLearningMaterial">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial">
+        <rdfs:subClassOf rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Topic"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Topic"/>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#UsabilityFeedback -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#UsabilityFeedback -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#UsabilityFeedback">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#UsabilityFeedback">
+        <rdfs:subClassOf rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
         <rdfs:comment>Feedback about the usability and accessibility of learning materials</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#VideoLearningMaterial -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#VideoLearningMaterial">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningMaterial"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial">
+        <rdfs:subClassOf rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningMaterial"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial"/>
+    <owl:Class rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial"/>
     
 
 
@@ -468,88 +468,88 @@
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Advanced -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Advanced -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Advanced"/>
+    <owl:NamedIndividual rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Advanced"/>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Approved -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Approved -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Approved">
-        <rdf:type rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus"/>
+    <owl:NamedIndividual rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Approved">
+        <rdf:type rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Auditory -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Auditory -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Auditory">
-        <rdf:type rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"/>
+    <owl:NamedIndividual rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Auditory">
+        <rdf:type rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Beginner -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Beginner -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Beginner"/>
+    <owl:NamedIndividual rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Beginner"/>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Intermediate -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Intermediate -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Intermediate">
-        <rdf:type rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level"/>
+    <owl:NamedIndividual rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Intermediate">
+        <rdf:type rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Kinesthetic -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Kinesthetic -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Kinesthetic">
-        <rdf:type rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"/>
+    <owl:NamedIndividual rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Kinesthetic">
+        <rdf:type rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Pending -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Pending -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Pending">
-        <rdf:type rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus"/>
+    <owl:NamedIndividual rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Pending">
+        <rdf:type rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Reading_Writing -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Reading_Writing -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Reading_Writing">
-        <rdf:type rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"/>
+    <owl:NamedIndividual rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Reading_Writing">
+        <rdf:type rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Rejected -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Rejected -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Rejected">
-        <rdf:type rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#FeedbackStatus"/>
+    <owl:NamedIndividual rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Rejected">
+        <rdf:type rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#FeedbackStatus"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Visual -->
+    <!-- https://veyisturgut.github.io/vb-rdf/ontology.rdf#Visual -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Visual">
-        <rdf:type rdf:resource="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#LearningStyle"/>
+    <owl:NamedIndividual rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Visual">
+        <rdf:type rdf:resource="https://veyisturgut.github.io/vb-rdf/ontology.rdf#LearningStyle"/>
     </owl:NamedIndividual>
     
 
@@ -563,7 +563,7 @@
      -->
 
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#hasLearningMaterial">
+    <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#hasLearningMaterial">
         <rdfs:comment>Material used for learning purposes in the vbc ontology.</rdfs:comment>
         <rdfs:label>Learning Material</rdfs:label>
     </rdf:Description>
@@ -582,19 +582,19 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#AudioLearningMaterial"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#ImageLearningMaterial"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#InteractiveLearningMaterial"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#TextualLearningMaterial"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#VideoLearningMaterial"/>
+            <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#AudioLearningMaterial"/>
+            <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#ImageLearningMaterial"/>
+            <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#InteractiveLearningMaterial"/>
+            <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#TextualLearningMaterial"/>
+            <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#VideoLearningMaterial"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Feedback"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Level"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/veyis/ontologies/2024/9/vbc#Student"/>
+            <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Feedback"/>
+            <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Level"/>
+            <rdf:Description rdf:about="https://veyisturgut.github.io/vb-rdf/ontology.rdf#Student"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
